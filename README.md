@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <br>
+  <a href="https://filotaxia.netlify.app"><img src="./public/assets/images/logo/logoIconoFilotaxiaW.png" alt="Markdownify" width="200"></a>
+  <br>
+  Filotaxia
+  <br>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">A minimal online web store app built on top of <a href="https://es.reactjs.org" target="_blank">React</a>.</h4>
 
-## Available Scripts
+<p align="center">
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
+</p>
 
-In the project directory, you can run:
+![screenshot](https://dragon.img2go.com/es/download-file/ff282b97-8abb-4306-8fd0-95346e910d2a/133cd379-9478-4470-843c-ed80ace4d045?qr=true)
 
-### `npm start`
+## About
+This project is the final installment of the last React.js course that I took at CoderHouse for the React Frontend Development Career during September-October 2022. As a final installment, I decided to make an online store of my own venture called Filotaxia. This business is based on the sale of terrariums, containers shaped like fish tanks or cylinders that contain plants that together form a microecosystem. The purpose of the store is that the user-client can navigate through the APP and observe the assortment of products in order to add the one he/she wants to for later purchase.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How To Use
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-### `npm test`
+```bash
+# Clone this repository
+$ git clone https://github.com/amitmerchant1990/electron-markdownify
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Go into the repository
+$ cd electron-markdownify
 
-### `npm run build`
+# Install dependencies
+$ npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Run the app
+$ npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> **Note**
+> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Download
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can [download](https://github.com/ndelcastillo/ProyectoFinalTienda.git) the latest version of Filotaxia github project for Windows, macOS and Linux.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Credits
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This software uses the following open source packages:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [React](https://es.reactjs.org)
+- [Node.js](https://nodejs.org/)
+- [Bootstrap](https://react-bootstrap.github.io)
+- [Sweetalert2](https://sweetalert2.github.io)
+- [Fortawesome](https://fortawesome.com)
+- [Uiballloader](https://uiball.com/loaders/)
+- [Firebase](https://firebase.google.com)
+- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
 
-## Learn More
+## Related
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Filotaxia](https://filotaxia.netlify.app) - Web version of Filotaxia
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Nicolas del Castillo
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+> GitHub [@ndelcastillo](https://github.com/ndelcastillo) &nbsp;&middot;&nbsp;
+> Twitter [@nikodelcas](https://twitter.com/nikodelcas)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

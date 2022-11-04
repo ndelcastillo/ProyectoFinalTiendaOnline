@@ -1,0 +1,181 @@
+.mainContainerCartView {
+    margin: 100px 0px 0px 0px;
+    background-color: white;
+    height: 90vh;
+}
+
+.cartViewTitle {
+    text-align: left;
+    padding: 30px 0px 0px 55px;
+    font-size: 52px;
+    color: rgb(56, 56, 56);
+    letter-spacing: 0px;
+    font-family: 'neueHaasBold';
+}
+
+.cartViewTitleVacio {
+    text-align: left;
+    padding: 30px 0px 0px 55px;
+    font-size: 52px;
+    color: white;
+    letter-spacing: 0px;
+    font-family: 'neueHaasBold';
+}
+
+.cartViewItem {
+    width: 60rem;
+    height: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px 0px 300px;
+    box-shadow: 0px 10px 15px black;
+    border-width: 1.5px;
+    border-radius: 1%;
+    overflow: hidden;
+    background: rgb(30, 30, 30);
+    transition: all 0.20s ease-in;
+}
+
+.cartViewItemImg {
+    margin: 0px 0px 0px 0px;
+    justify-content: left;
+    position: relative;
+    right: 68px;
+}
+
+.cartViewItemImgTop {
+    width: 130px;
+}
+
+.cartViewItemBody {
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    right: 30px;
+    margin: 0px 0px 50px 0px;
+
+}
+
+.cartViewItemBodyName {
+    margin: 0px 0px 0px 0px;
+    font-family: 'neueHaasRoman';
+    font-size: 20px;
+    color: white;
+}
+
+.cartViewItemBodyPrice {
+    margin: 0px 0px 0px 50px;
+    font-family: 'neueHaasRoman';
+    font-size: 20px;
+    color: white;
+}
+
+.cartViewItemBodyQty {
+    margin: 0px 0px 0px 50px;
+    font-family: 'neueHaasRoman';
+    font-size: 20px;
+    color: white;
+}
+
+.cartViewItemBodySubtotal {
+    margin: 0px 0px 0px 50px;
+    font-family: 'neueHaasRoman';
+    font-size: 20px;
+    color: white;
+}
+
+
+.cartViewTable {
+    border-spacing: 0;
+    width: 1400px;
+    margin: 0px 0px 0px 55px;
+    text-align: center;
+}
+
+.cartViewTableHead {
+    background-color: rgb(150, 150, 150);
+    margin: 0px 0px 0px 0px;
+}
+
+.cartViewTableRow {
+    line-height: 50px;
+    margin: 0px 0px 0px 0px;
+}
+
+.cartViewTableRow th {
+    color: white;
+    font-family: 'neueHaasRoman';
+    font-size: 15px;
+}
+
+
+.cartViewTableBody {
+    margin: 0px 0px 0px 0px;
+}
+
+.cartViewTableBodyInfo {
+    line-height: 65px;
+    margin: 0px 0px 0px 0px;
+}
+
+.cartViewTableBodyInfoImg {
+    margin: 0px 0px 0px 0px;
+}
+
+.cartViewTableBodyInfoImg img {
+    height: 50px;
+}
+
+.cartViewTableBodyInfoName {
+    margin: 0px 0px 0px 0px;
+    font-family: 'neueHaasMedium';
+}
+
+.cartViewTableBodyInfoPrice {
+    margin: 0px 0px 0px 0px;
+    font-family: 'neueHaasThin';
+}
+
+.cartViewTableBodyInfoQty {
+    margin: 0px 0px 0px 0px;
+    font-family: 'neueHaasThin';
+}
+
+.cartViewTableBodyInfoSubtotal {
+    margin: 0px 0px 0px 0px;
+    font-family: 'neueHaasThin';
+}
+
+.cartViewTableBodyInfoEliminar {
+    margin: 0px 0px 0px 0px;
+    font-family: 'neueHaasThin';
+    font-size: 12px;
+}
+
+.cartViewTotalPrice {
+    text-align: right;
+    padding: 30px 60px 0px 0px;
+    font-size: 22px;
+    color: rgb(56, 56, 56);
+    letter-spacing: 0px;
+    font-family: 'neueHaasMedium';
+}
+
+.cartViewBtn{
+    background-color: lightgrey;
+    margin: 10px 0px 0px 1250px;
+    width: 200px ;
+    height: 40px;
+}
+
+.cartViewBtnContinuar{
+    font-size: 18px;
+    padding: 0px;
+    font-family: 'neueHaasRoman';
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+

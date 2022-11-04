@@ -1,0 +1,91 @@
+.itemCard {
+    background: rgb(30, 30, 30);
+    width: 15rem;
+    height: 23rem;
+    box-shadow: 0px 10px 15px black;
+    margin: 40px 0px 0px 52px ;
+    text-align: center;
+    transition: all 0.20s ease-in;
+}
+
+.itemCard:hover{
+    box-shadow: 0px 10px 15px 2px rgb(13, 13, 13);
+    transform: translateY(-6px);
+}
+
+.cardImg{
+    object-fit: cover;
+}
+
+.cardImgTop {
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px;
+    border-radius: 0%;
+    width: 15rem;
+    object-fit: contain;
+}
+
+/*
+.cardBody {
+    background-color: rgb(30, 30, 30);
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 15rem;
+    height: 8rem;
+}
+*/
+
+.cardName {
+    color: rgb(240, 240, 240);
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    letter-spacing: 0px;
+    font-size: 22px;
+    font-family: 'neueHaasRoman';
+}
+
+.cardPrice {
+    color: rgb(240, 240, 240);
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font-size: 15px;
+    font-family: 'neueHaasThin';
+}
+
+.cardTextSeeMore {
+    color: rgb(240, 240, 240);
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    font-size: 9px;
+    font-family: 'neueHaasThin';
+}
+
+.cardTextSeeMore:hover {
+    color: rgb(240, 240, 240);
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    font-size: 9px;
+    font-family: 'neueHaasBlack';
+}
+
+/*Ternario &&*/
+.priceTag{
+    color: rgb(240, 240, 240);
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+    font-family: 'neueHaasThin';
+}
+
+.offerTag{
+    color: rgb(240, 240, 240);
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+    font-family: 'neueHaasThin';
+}
+
+.urlDetalle{
+    list-style: none;
+    text-decoration: none;
+}

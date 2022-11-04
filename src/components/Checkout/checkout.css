@@ -1,0 +1,14 @@
+.mainContainerCheckout {
+    margin: 100px 0px 0px 0px;
+    background-color: white;
+    height: 100vh;
+}
+
+.checkoutTitle {
+    text-align: left;
+    padding: 30px 0px 0px 55px;
+    font-size: 52px;
+    color: rgb(56, 56, 56);
+    letter-spacing: 0px;
+    font-family: 'neueHaasBold';
+}

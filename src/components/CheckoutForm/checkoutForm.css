@@ -1,0 +1,156 @@
+.mainContainerCheckout {
+    margin: 120px 0px 0px 0px;
+    background-color: white;
+    height: 100vh;
+}
+
+.checkoutFormTitle1 {
+    text-align: left;
+    padding: 70px 0px 0px 85px;
+    margin: 0px 0px 0px 180px;
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    letter-spacing: 0px;
+    font-family: 'neueHaasRoman';
+}
+
+.checkoutFormTitle2 {
+    text-align: left;
+    padding: 0px 0px 20px 0px;
+    margin: 60px 0px 0px 0px;
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    letter-spacing: 0px;
+    font-family: 'neueHaasRoman';
+}
+
+.mainContainerCheckoutFormAll {
+    margin: 0px 0px 0px 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/*---------- FORM ----------*/
+
+.checkoutForm{
+    margin: 20px 150px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.checkoutFormName{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkoutFormNameFirst{
+margin: 0px 10px 0px 0px;
+}
+
+.checkoutFormNameLast{
+    margin: 0px 0px 0px 100px;
+}
+
+.checkoutBtnBackAndSub{
+    display: flex;
+}
+
+.checkoutBtnBack{
+    font-size: 12px;
+    color: rgb(240,212,120);
+    letter-spacing: 0px;
+    font-family: 'neueHaasRoman';
+    align-items: center;
+    justify-content: center;
+    margin: 14px 0px 0px 0px;
+    text-decoration: underline;
+}
+
+.checkoutBtnBackLink{
+    text-decoration: underline;
+}
+
+.checkoutBtnSubmit{
+    margin: 0px 0px 0px 280px;
+}
+
+/*---------- TABLE ----------*/
+
+.checkoutCartView{
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.checkoutCartViewTable {
+    border-spacing: 0;
+    width: 400px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.checkoutCartViewTableBody {
+    margin: 0px 0px 0px 0px;
+}
+
+.checkoutCartViewTableBodyInfo {
+    margin: 0px 0px 0px 0px;
+}
+
+.checkoutCartViewTableBodyInfoImg {
+    margin: 0px 0px 0px 0px;
+}
+
+.checkoutCartViewTableBodyInfoImg img {
+    height: 50px;
+    padding: 5px;
+}
+
+.checkoutCartViewTableBodyInfoName {
+    margin: 0px 0px 0px 0px;
+    font-family: 'neueHaasThin';
+    position: relative;
+    right: 50px;
+}
+
+.checkoutCartViewTableBodyInfoQty {
+    margin: 0px 0px 0px 0px;
+    font-family: 'neueHaasRoman';
+    font-size: 11px;
+    position: relative;
+    right: 10px;
+}
+
+.checkoutCartViewTableBodyInfoPrice {
+    margin: 0px 0px 0px 0px;
+    font-family: 'neueHaasThin';
+    position: relative;
+    right: 40px;
+}
+
+.checkoutCartViewTotal{
+    text-align: center;
+    padding: 10px 0px 0px 150px;
+    font-size: 18px;
+    color: rgb(56, 56, 56);
+    letter-spacing: 0px;
+    font-family: 'neueHaasMedium';
+}
+
+/*---------- BTN ----------*/
+
+.checkoutBtn{
+    background-color: lightgrey;
+    margin: 50px 0px 0px 0px;
+    width: 200px ;
+    height: 40px;
+}
+
+.checkoutBtnFinalizar{
+    font-size: 18px;
+    padding: 0px;
+    font-family: 'neueHaasRoman';
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}

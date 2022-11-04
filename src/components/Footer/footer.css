@@ -1,0 +1,48 @@
+.footer{
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerText1{
+    margin: 10px 0px 0px 70px;
+    display: flex;
+    align-items: center;
+}
+
+.footerText1 h5{
+    color: whitesmoke;
+    font-family: 'neueHaasRoman';
+    font-size: 15px;
+}
+
+.footerRedesSociales{
+    display: flex;
+    margin: 0px 0px 0px 0px;
+}
+
+.footerRedesSocialesLogoIg{
+    width: 50px;
+}
+
+.footerRedesSocialesLogoSp{
+    width: 50px;
+}
+
+.footerRedesSocialesLogoYt{
+    width: 50px;
+}
+
+.footerText2{
+    letter-spacing: 0px;
+    margin: 10px 70px 0px 0px;
+}
+
+.footerText2 h5{
+    color: whitesmoke;
+    font-family: 'neueHaasRoman';
+    font-size: 15px;
+}

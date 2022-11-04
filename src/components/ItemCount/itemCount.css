@@ -1,0 +1,55 @@
+.itemCount{
+    justify-content: center;
+    align-content: center;
+    margin: 0px 0px 0px 40px;
+    display: flex;
+}
+
+.itemCountAll{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 0px;
+    display: flex;
+}
+
+.btnMas{
+    color: black;
+    height: 42px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'neueHaasRoman';
+}
+
+.numCount{
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+    font-family: 'neueHaasRoman';
+    font-weight: 400;
+    padding: 0px;
+}
+
+.btnMenos{
+    color: black;
+    height: 42px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'neueHaasRoman';
+}
+
+.btnAgregarAlCarrito{
+    background-color: rgb(200, 200, 200);
+    color: black;
+    font-family: 'neueHaasRoman';
+    font-weight: 500;
+    font-size: 25px;
+    width: 400px;
+    height: 42px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px 0px 0px;
+    padding: 5px 5px 5px 5px;
+}

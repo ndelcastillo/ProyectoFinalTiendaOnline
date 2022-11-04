@@ -1,0 +1,167 @@
+.cardItem {
+    background: rgb(30, 30, 30);
+    width: 100rem;
+    height: 43rem;
+    box-shadow: 0px 10px 15px black;
+    border-width: 1.5px;
+    border-radius: 1%;
+    margin: 100px 50px 50px 50px ;
+    overflow: hidden;
+    transition: all 0.20s ease-in;
+    display: flex;
+}
+
+.cardItem:hover{
+    box-shadow: 0px 10px 15px 2px rgb(13, 13, 13);
+    transform: translateY(-6px);
+}
+
+.cardItemImg{
+    object-fit: cover;
+}
+
+.cardItemImgTop {
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px;
+    border-radius: 0%;
+    width: 43rem;
+    object-fit: contain;
+}
+
+.cardItemBody {
+    background-color: rgb(30, 30, 30);
+    padding: 0px 20px 0px 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+.cardItemName {
+    color: white;
+    text-align: left;
+    margin: 40px 0px 20px 39px;
+    font-family: 'neueHaasMedium';
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.cardItemPrice {
+    color: white;
+    text-align: left;
+    margin: 0px 0px 5px 40px;
+    font-family: 'neueHaasRomanItalic';
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.cardItemDues{
+    color: rgb(190, 190, 190);
+    text-align: center;
+    margin: 0px 0px 10px 40px;
+    font-size: 12px;
+    font-family: 'neueHaasLightItalic';  
+    text-align: left;
+    letter-spacing: 0px;
+}
+
+.cardItemText {
+    margin: 0px 30px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.cardItemText li {
+    list-style: none;
+}
+
+
+.cardItemTextType {
+    color: rgb(190, 190, 190);
+    text-align: left;
+    padding: 20px 0px 6px 40px;
+    font-family: 'neueHaasLight';
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.cardItemTextPlants {
+    color: rgb(190, 190, 190);
+    text-align: left;
+    padding: 0px 0px 6px 40px;
+    font-family: 'neueHaasLight';
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+}
+
+.cardItemTextPot {
+    color: rgb(190, 190, 190);
+    text-align: left;
+    padding: 0px 0px 6px 40px;
+    font-family: 'neueHaasLight';
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+}
+
+.cardItemTextDetail {
+    color: rgb(180, 180, 180);
+    text-align: left;
+    padding: 0px 0px 40px 40px;
+    margin: 0px 0px 210px 0px;
+    font-family: 'neueHaasLight';
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.btnGoToCartOrBack{
+    display: block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btnGoToCart{
+    font-family: 'neueHaasRoman';
+    background: rgb(50, 50, 50);
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 5px 5px 5px;
+}
+
+.btnGoToCart:hover{
+    background: rgb(146, 146, 146);
+    cursor: pointer;
+}
+
+.btnGotToBack{
+    text-decoration: none;
+
+}
+
+.goToBackTxt{
+    font-family: 'neueHaasThin';
+    font-size: 12px;
+    text-decoration: none;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.cardItemTextStock {
+    color: rgb(180, 180, 180);
+    padding: 0px 0px 0px 40px;
+    font-family: 'neueHaasLight';
+    font-size: 18px;
+    text-align: left;
+}
