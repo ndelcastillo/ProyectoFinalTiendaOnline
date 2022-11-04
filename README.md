@@ -16,7 +16,7 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://dragon.img2go.com/es/download-file/ff282b97-8abb-4306-8fd0-95346e910d2a/133cd379-9478-4470-843c-ed80ace4d045?qr=true)
+![screenshot](https://dragon.img2go.com/es/download-file/cc07e98b-3821-461f-9718-b92e426b4644/ab5c6615-19df-49dd-a0e0-1058e4a6eaa3?qr=true)
 
 ## About
 This project is the final installment of the last React.js course that I took at CoderHouse for the React Frontend Development Career during September-October 2022. As a final installment, I decided to make an online store of my own venture called Filotaxia. This business is based on the sale of terrariums, containers shaped like fish tanks or cylinders that contain plants that together form a microecosystem. The purpose of the store is that the user-client can navigate through the APP and observe the assortment of products in order to add the one he/she wants to for later purchase.
